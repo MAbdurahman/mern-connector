@@ -1,0 +1,30 @@
+{
+  "name": "mern-connector",
+  "version": "1.0.0",
+  "description": "a social network application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAbdurahman/mern-connector.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "ExpressJS",
+    "ReactJS",
+    "and",
+    "NodeJS"
+  ],
+  "author": "Mahdi Abdurrahman",
+  "license": "MIT",
+  "nodemonConfig": {
+    "delay": "2000"
+  },
+  "bugs": {
+    "url": "https://github.com/MAbdurahman/mern-connector/issues"
+  },
+  "homepage": "https://github.com/MAbdurahman/mern-connector#readme"
+}
