@@ -1,7 +1,6 @@
 //**************** imports ****************//
 const express = require('express');
-
-
+const connectDB = require('./config/db');
 
 
 
@@ -9,7 +8,8 @@ const express = require('express');
 const app = express();
 const PORT = process.env.Port || 5000;
 
-
+//**************** database connection ****************//
+connectDB();
 //**************** app routes ****************//
 app.get('/', (req, res) => {
    res.send(`<h2>application running</h2>`);
