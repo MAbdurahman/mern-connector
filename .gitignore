@@ -37,3 +37,6 @@ debug.log
 
 .env
 .eslintcache
+
+
+config/default.json
